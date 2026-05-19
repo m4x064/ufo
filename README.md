@@ -14,7 +14,7 @@ cd ..
 python -m http.server 5173
 ```
 
-その後、ブラウザで `http://localhost:5173/math-game-portable/` を開きます。
+その後、ブラウザで `http://localhost:5173/` を開きます。
 
 ## 入力
 

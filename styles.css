@@ -30,7 +30,7 @@ body {
   min-height: 100vh;
   background:
     linear-gradient(135deg, rgba(10, 18, 37, 0.88), rgba(33, 42, 63, 0.74)),
-    url("../assets/yuri/extra/backgrounds/space_cockpit_stage.png") center / cover fixed,
+    url("assets/yuri/extra/backgrounds/space_cockpit_stage.png") center / cover fixed,
     var(--space);
   color: var(--ink);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -265,7 +265,7 @@ h3 {
   overflow: hidden;
   background:
     linear-gradient(110deg, rgba(17, 24, 44, 0.94), rgba(29, 54, 77, 0.72)),
-    url("../assets/yuri/extra/backgrounds/space_cockpit_stage.png") center / cover;
+    url("assets/yuri/extra/backgrounds/space_cockpit_stage.png") center / cover;
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 8px;
   color: #fff;
@@ -659,7 +659,7 @@ h3 {
   place-items: center;
   background:
     linear-gradient(135deg, rgba(21, 29, 50, 0.96), rgba(34, 49, 74, 0.88)),
-    url("../assets/yuri/extra/effects/20_magic_circle.png") center / 260px no-repeat;
+    url("assets/yuri/extra/effects/20_magic_circle.png") center / 260px no-repeat;
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 8px;
   color: #fff;
@@ -1395,7 +1395,7 @@ body.touch-input .number-pad {
     padding: 24px;
     background:
       linear-gradient(135deg, rgba(16, 25, 45, 0.97), rgba(38, 53, 80, 0.9)),
-      url("../assets/yuri/extra/effects/20_magic_circle.png") center / min(48%, 320px) no-repeat;
+      url("assets/yuri/extra/effects/20_magic_circle.png") center / min(48%, 320px) no-repeat;
   }
 
   #quizScreen .operation-label {
@@ -1416,7 +1416,7 @@ body.touch-input .number-pad {
     padding: 18px;
     background:
       linear-gradient(180deg, rgba(24, 34, 53, 0.98), rgba(35, 49, 74, 0.96)),
-      url("../assets/yuri/extra/effects/17_twinkle_cluster.png") right 18px top 18px / 120px no-repeat;
+      url("assets/yuri/extra/effects/17_twinkle_cluster.png") right 18px top 18px / 120px no-repeat;
     border: 1px solid rgba(255, 255, 255, 0.14);
     border-radius: 8px;
     color: #fff;

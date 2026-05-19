@@ -59,13 +59,13 @@ const STAGE_PROGRESS_STORAGE_KEY = storageKeys.stageProgress || "mathfit-yuri-st
 const SAVE_EXPORT_VERSION = 1;
 
 const yuriMoods = {
-  wave: "../assets/yuri/extra/actions/01_wave.png",
-  focus: "../assets/yuri/extra/actions/13_sparkle_pose.png",
-  happy: "../assets/yuri/extra/actions/02_happy_bounce.png",
-  surprised: "../assets/yuri/extra/actions/05_surprised.png",
-  talk: "../assets/yuri/extra/actions/06_talk.png",
-  sleepy: "../assets/yuri/extra/actions/03_sleepy.png",
-  victory: "../assets/yuri/extra/actions/16_victory_pose.png",
+  wave: "assets/yuri/extra/actions/01_wave.png",
+  focus: "assets/yuri/extra/actions/13_sparkle_pose.png",
+  happy: "assets/yuri/extra/actions/02_happy_bounce.png",
+  surprised: "assets/yuri/extra/actions/05_surprised.png",
+  talk: "assets/yuri/extra/actions/06_talk.png",
+  sleepy: "assets/yuri/extra/actions/03_sleepy.png",
+  victory: "assets/yuri/extra/actions/16_victory_pose.png",
 };
 
 const rewardCatalog = window.MathFitRewards || {};
