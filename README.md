@@ -34,9 +34,12 @@ python -m http.server 5173
 - Stage 2-2 繰り下がりひき算航路
 - Stage 2-3 繰り上がりかけ算航路
 - Stage 2-4 繰り下がりわり算航路
-- Stage 3 二桁どうしひき算航路
+- Stage 3 二桁どうしひき算実力テスト
 - Stage 4 二桁どうしわり算航路
-- Stage 5 二桁ミックス航路
+- Stage 5-1 二桁ミックスたし算航路
+- Stage 5-2 二桁ミックスひき算航路
+- Stage 5-3 二桁ミックスかけ算航路
+- Stage 5-4 二桁ミックスわり算航路
 - Stage 6 二桁ツイン航路
 - Stage 7 三桁ジャンプ航路
 - Stage 8 同じ数かけ算航路
@@ -59,6 +62,7 @@ python -m http.server 5173
 ## 保存
 
 進行中ミッション、ステージ進捗、ゆーり成長ログ、BGM設定は `localStorage` に保存します。
+Stage 3 の実力テストは10分制限で、途中保存はされません。
 直接 `localStorage` を触らず、基本的に `src/storage/progressStorage.js` の `MathFitStorage` API を使います。
 
 主なAPI:
