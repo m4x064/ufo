@@ -27,23 +27,20 @@ python -m http.server 5173
 
 - 10問診断ミッション
 - Stage 1 一桁スター航路
-- Stage 1-1 一桁たし算航路
-- Stage 1-2 一桁ひき算航路
-- Stage 1-3 一桁かけ算・わり算航路
 - Stage 2-1 繰り上がりたし算航路
 - Stage 2-2 繰り下がりひき算航路
 - Stage 2-3 繰り上がりかけ算航路
 - Stage 2-4 繰り下がりわり算航路
-- Stage 3 二桁どうしひき算実力テスト
-- Stage 4 二桁どうしわり算航路
-- Stage 5-1 二桁ミックスたし算航路
-- Stage 5-2 二桁ミックスひき算航路
-- Stage 5-3 二桁ミックスかけ算航路
-- Stage 5-4 二桁ミックスわり算航路
+- Stage 3-1 二桁繰り上がりたし算実力テスト
+- Stage 3-2 二桁どうしひき算実力テスト
+- Stage 3-3 二桁繰り下がりひき算実力テスト
+- Stage 4-1 二桁どうしわり算航路
+- Stage 4-2 二桁ミックスかけ算航路
+- Stage 4-3 二桁ミックスわり算航路
 - Stage 6 二桁ツイン航路
 - Stage 7 三桁ジャンプ航路
 - Stage 8 同じ数かけ算航路
-- Test 1 Stage 1-5 復習診断
+- Test 1 Stage 1〜5 復習診断
 - 四則演算ナビ
 
 ステージ定義は `src/data/stages.js`、問題生成は `src/data/problems.js` にあります。
