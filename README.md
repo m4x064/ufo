@@ -27,9 +27,12 @@ python -m http.server 5173
 
 - 10問診断ミッション
 - Stage 1 一桁スター航路
-- Stage 2 繰り上がりジャンプ航路
-- Stage 3 二桁スリム航路
-- Stage 4 二桁ペア航路
+- Stage 2-1 繰り上がりたし算航路
+- Stage 2-2 繰り下がりひき算航路
+- Stage 2-3 繰り上がりかけ算航路
+- Stage 2-4 繰り下がりわり算航路
+- Stage 3 二桁どうしひき算航路
+- Stage 4 二桁どうしわり算航路
 - Stage 5 二桁ミックス航路
 - Stage 6 二桁ツイン航路
 - Stage 7 三桁ジャンプ航路
